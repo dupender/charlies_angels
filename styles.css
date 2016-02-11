@@ -1,0 +1,14 @@
+html {
+  background-color: lightsteelblue;
+}
+
+article {
+  background-color: darkblue;
+  border-radius: 10px
+  border: 3px groove lightseagreen;
+  display: inline-block;
+  width: 30%;
+  margin: 0 auto;
+  color: white;
+  font-family: "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
+}
