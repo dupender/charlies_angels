@@ -12,7 +12,14 @@ var productArray = [
 ]
 
 document.getElementById("products").innerHTML = "";
-
 for (var i = 0; i < productArray.length; i++) {
-  document.getElementById("products").innerHTML += "<div class='items'><h3 class='title'>" + productArray[i].title + "</h3>" + "<img src='" + productArray[i].img +"'>" + "<p class='description'>Description</p><p class='description-text'>" + productArray[i].desc + "</p><p class='price'>Your Price</p><p class='price-text'>" + productArray[i].price + "</p><p class='button'>Add to Cart</p>" + "</div>";
+ document.getElementById("products").innerHTML += "<div class='items'><h3 class='title'>" + productArray[i].name + "</h3>" + "<img src='" + productArray[i].img +"'>" + "<p class='description'>Description</p><p class='description-text'>" + productArray[i].desc + "</p><p class='price'>Your Price</p><p class='price-text'>" + productArray[i].price + "</p><p class='button'>Add to Cart</p>" + "</div>";
 }
+ 
+
+// original js
+// for (var i = 0; i < productArray.length; i++) {
+//  document.getElementById("products").innerHTML += "<div class='items'><h3 class='title'>" + productArray[i].title + "</h3>" + "<img src='" + productArray[i].imageURL +"'>" + "<p class='description'>Description</p><p class='description-text'>" + productArray[i].description + "</p><p class='price'>Your Price</p><p class='price-text'>" + productArray[i].price + "</p><p class='button'>Add to Cart</p>" + "</div>";
+// }
+ 
+Status API Training Shop Blog About Pricing
