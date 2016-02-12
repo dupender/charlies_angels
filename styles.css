@@ -1,0 +1,9 @@
+.mission {
+    background-image: url("images/adult-coloring-book.jpg.png");
+    background-size: cover;  
+    color: white;
+}
+.nav{
+  color: white;
+  font-size: 40px
+}
