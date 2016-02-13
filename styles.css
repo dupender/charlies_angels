@@ -126,18 +126,30 @@ article.body {
   -moz-box-shadow: 10px 10px 10px -1px rgba(255,2,118,0.58);
   box-shadow: 10px 10px 10px -1px rgba(255,2,118,0.58);
 }
- 
-/**********
-   FOOTER
-***********/
- 
+
+/*BODY IMAGES: ABOUT*/
+.about_img_wrapper {
+  text-align: center;
+  margin-top: 1em;
+}
+
+.about_img {
+  height: 150px;
+  border: 1px solid black;
+  margin-right: 1em;
+  -webkit-box-shadow: 10px 10px 10px -1px rgba(255,2,118,0.58);
+  -moz-box-shadow: 10px 10px 10px -1px rgba(255,2,118,0.58);
+  box-shadow: 10px 10px 10px -1px rgba(255,2,118,0.58);
+}
+
+/***********/
+/*   FOOTER
+*//*************/
+
 footer {
   text-align: center;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
   color: white;
-}
-
-#products {
   background: black;
   font-size: 1em;
   padding: .5em;
