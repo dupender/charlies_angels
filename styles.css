@@ -135,6 +135,9 @@ footer {
   text-align: center;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
   color: white;
+}
+
+#products {
   background: black;
   font-size: 1em;
   padding: .5em;
