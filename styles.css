@@ -12,3 +12,8 @@ article {
   color: white;
   font-family: "Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
 }
+
+#products {
+  background-color: purple;
+  display: float left;
+}
